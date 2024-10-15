@@ -95,11 +95,11 @@ public class Config {
         Map<String, Double> config = new HashMap<>();
 
         // Spawn Radius
-        config.put("maxSpawnRadius", 2000d);
-        config.put("minSpawnRadius", 1000d);
+        config.put("maxSpawnRadius", 20d);
+        config.put("minSpawnRadius", 10d);
 
         // Quick Spawn
-        config.put("quickSpawnRadius", 100d);
+        config.put("quickSpawnRadius", 1d);
 
         // Spawn Radius Multipliers
         config.put("largeBiomeMultiplier", 4d);
