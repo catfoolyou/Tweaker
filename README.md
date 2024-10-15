@@ -2,8 +2,6 @@
 
 Want to be able to change HC Spawn mechanics? Want to disable lightning fires? This addon is for you!
 
-[Download](https://github.com/BTW-Community/Tweaker/releases/latest)
-
 ## Installation
 **Fabric is required!**
 - Install Fabric with Better Than Wolves according to these [installation instructions](https://github.com/BTW-Community/BTW-gradle-fabric-example#releasing-modsaddons)
@@ -25,13 +23,13 @@ For multiplayer only the server needs to have this mod installed.
 ```python
 
 # The maximum radius the player will respawn from world spawn.
-maxSpawnRadius=2000.0
+maxSpawnRadius=20.0
 
 # The minimum radius the player will respawn from world spawn.
-minSpawnRadius=1000.0
+minSpawnRadius=10.0
 
 # The radius at which the player will respawn after dying recently.
-quickSpawnRadius=100.0
+quickSpawnRadius=1.0
 
 # The player's health after a quick spawn. (2 = one heart)
 quickSpawnHealth=10
